@@ -1,65 +1,40 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <link href="styles/style.css" rel="stylesheet" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Eric Wu's DS4200 Website</title>
+html {
+    font-size: 18px;
+    font-family: 'Times New Roman', sans-serif;
+  }
 
-  </head>
-  <body>
-    <h1>Eric Wu - The Hot Pot Experience</h1>
-  </head>
+  h1 {
+    font-size: 40px;
+    font-family: 'Lucida Console', monospace;
+    text-align: center;
+  }
 
-  <img src="images/20230303001689.jpg" alt="My test image" />
+  h2 {
+    font-size: 23px;
+    font-family: 'Andalé Mono', serif;
+    text-align: center;
+  }
 
-    <h2>Self Introduction</h2>
-    <p>Welcome! Hello, I'm Eric, currently a third year student studying at 
-        Northeastern University under Khoury College of Computer Sciences. 
-        I am pursuing a Bachelors in Data Science and Business Administration 
-        with a concentration in Fintech. I grew up in Quincy, Massachusetts, 
-        which is about a thirty minute drive south from the university. Some of 
-        my hobbies include listening to music, playing video games, sleeping, and 
-        exploring mother nature. My goal after I graduate is to hopefully find a job
-        that aligns with my interests and live a stable life.
-    </p>
+  p, li{
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.5px;
+  }
 
-    <h2>Hot Pot is Amazing</h2>
-    <p>Hot pot stands out as a culinary delight of exceptional merit. Hot pot is 
-        renowned for it's</p>
+  html {
+    background-color: #c8334e;
+  }
 
-    <ul>
-    <li>savory flavors</li>
-    <li>gustatory experience</li>
-    <li>exquisite taste</li>
-    </ul>
+  body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #bcb16a;
+    padding: 0 20px 20px 20px;
+    border: 3.5px solid black;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
 
-    <p>that leave people satisfied after stuffing themselves to their hearts content.
-        Hot pot offers a diverse selection of ingredients, allowing for a customizable 
-        and interactive dining experience. In addition to meats and vegetables, condiments,
-        dipping sauces, and side dishes complement the meal. Sharing a hot pot meal is a 
-        popular way for friends and family to bond over a leisurely and flavorful meal. While 
-        hot pot has its roots in Chinese cuisine, variations of this cooking style can be found
-        in other Asian countries, each with its unique twists and flavors. It has become a 
-        global favorite, with hot pot restaurants found in many parts of the world!
-    </p>
-
-    <img src="images/sauces.webp" alt="My test image" />
-
-    <h2>Later Content</h2>
-    <ul>
-    <li>Top Hot Pot Restaurants in Bostons</li>
-    <li>Provide Recommendations for Food</li>
-    <li>Broth and Sauce Customization Guides</li>
-    <li>At Home Hot Pot Guide</li>
-    </ul>
-
-    <h2>Conclusion</h2>
-    <p>All in all, this is a brief introduction to the world of hot pot. If you haven't already, do
-        try to gather some friends or family and have a relaxing time eating hot pot. 
-        <a href="https://boston.eater.com/maps/best-hot-pot-boston">Here</a> are some restaurants 
-        located in Boston if you are interested! Enjoy and hope you all have an amazing experience!
-    </p>
-    </body>
-    <script src="scripts/main.js"></script>
-</html>
+  }
